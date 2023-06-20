@@ -21,7 +21,7 @@ KB_FIELDS_SOURCEPAGE = "sourcepage"
 # Use the current user identity to authenticate with Azure OpenAI, Cognitive Search and Blob Storage (no secrets needed, 
 # just use 'az login' locally, and managed identity when deployed on Azure). If you need to use keys, use separate AzureKeyCredential instances with the 
 # keys for each service
-azure_credential = AzureKeyCredential("eBmGqM94MA30rEbz0BsfH6tWNak5bI4mfDBLGDOZFWAzSeDhJVgn")
+azure_credential = AzureKeyCredential("Cog Search Key here")
 
 # Used by the OpenAI SDK
 openai.api_type = "azure"
@@ -31,7 +31,7 @@ openai.api_version = "2022-12-01"
 
 # Comment these two lines out if using keys, set your API key in the OPENAI_API_KEY environment variable instead
 #openai.api_type = "azure_ad"
-openai.api_key ="a2867b0cec2e47bc9f991d2abe375cc7"
+openai.api_key ="Open AI Key here"
 st.title("Prathap GPT with Cog Search Demo on Azure SQL")
 selectedIndex = st.selectbox("Data source: ",
                      ['myindex1', 'myindex1'])
